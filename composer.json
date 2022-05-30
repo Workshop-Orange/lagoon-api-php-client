@@ -1,0 +1,23 @@
+{
+    "name": "workshop-orange/lagoon-api-php-client",
+    "description": "A Workshop Orange opinionated Lagoon API PHP client",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0",
+        "symfony/console": "^6.1",
+        "psr/log": "^3.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "WorkshopOrange\\LagoonApiPhpClient\\": "src/workshop-orange/lagoon-api-php-client"
+        }
+    },
+    "authors": [
+        {
+            "name": "Bryan Gruneberg",
+            "email": "hello@bryangruneberg.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
